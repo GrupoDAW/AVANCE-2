@@ -1,0 +1,15 @@
+#boton{
+    border: none;
+    font-size: 1em;
+    color: #fff;
+    background: -webkit-linear-gradient(top, #e1400a, #990000);
+    background: -moz-linear-gradient(top,  #e1400a, #990000,);
+    background: linear-gradient(top,  #e1400a, #990000,);
+    padding: 2px;
+    cursor: pointer;
+    text-shadow: 3px 3px 3px #000000;
+    box-shadow: 3px 5px 7px #000000;
+    border-radius: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}

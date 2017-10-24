@@ -1,0 +1,68 @@
+ html{
+    font-family: 'Lobster', cursive;
+    font-size: 16px;
+}
+.menu{
+width:  2.2rem;
+height: 2.7rem;
+background: #21618C;
+border-radius: 0.5rem;
+position: absolute;
+top: 50%;
+left: 5%;
+font-family: sans-serif;
+font-size: 2rem;
+color: white;
+text-align: center;
+transition: left 0.7s;
+}
+
+.checkbox:checked ~ .menu{
+    left: 15%;
+    border-radius: 0 0.5 rem 0.5 rem 0;
+}
+
+.left-panel {
+    width: 15%;
+    height: 144%;
+    float: left;
+    /*safari*/
+    background: -webkit-linear-gradient(#0066CC, #006699, #66CCFF);
+   /*Opera*/
+    background: -o-linear-gradient(#0066CC, #006699, #66CCFF);
+    /*Estandar*/
+    background: linear-gradient(#0066CC, #006699, #66CCFF);
+    position: absolute;
+    top: 0;
+    left: -40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: left 0.4s;
+}
+.checkbox:checked ~ .left-panel {
+    left: 0;
+}
+
+.checkbox {
+    display: none;
+}
+
+ul a {
+    color: #F7F7F7;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+    font-size: 1rem;
+    text-align: center;
+    padding: 0 0.5rem;
+    margin: 1.5rem;
+}
+
+#letra {
+    color: #ccc;
+    font: oblique bold 120% cursive;
+    font-family: sans-serif 100%;
+}
